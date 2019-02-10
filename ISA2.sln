@@ -22,6 +22,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logs", "Logs", "{C0CCD943-A
 		Logs\Opmann_Time_recording_log.xlsx = Logs\Opmann_Time_recording_log.xlsx
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week2", "Week2", "{258690BB-9A1C-440A-A599-5E285F5EC7B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson18", "Lesson18", "{26554DCB-AF1F-48FD-A5AB-1FD02699EFEB}"
+	ProjectSection(SolutionItems) = preProject
+		Week2\Lesson18\30seconds.mp4 = Week2\Lesson18\30seconds.mp4
+		Week2\Lesson18\Lesson18.html = Week2\Lesson18\Lesson18.html
+		Week2\Lesson18\poster.jpg = Week2\Lesson18\poster.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson19", "Lesson19", "{334D6B74-733C-4D5D-84B6-5B6F2E7845DE}"
+	ProjectSection(SolutionItems) = preProject
+		Week2\Lesson19\Lesson19.html = Week2\Lesson19\Lesson19.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson20", "Lesson20", "{9FBCDA07-200B-4668-8775-51BCF10A56EB}"
+	ProjectSection(SolutionItems) = preProject
+		Week2\Lesson20\copy_paste_svg.html = Week2\Lesson20\copy_paste_svg.html
+		Week2\Lesson20\external_link.html = Week2\Lesson20\external_link.html
+		Week2\Lesson20\Illustrator_SVG.png.png = Week2\Lesson20\Illustrator_SVG.png.png
+		Week2\Lesson20\svg_interactivity.html = Week2\Lesson20\svg_interactivity.html
+		Week2\Lesson20\Test.svg = Week2\Lesson20\Test.svg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +82,9 @@ Global
 		{40E8A1C3-CFFC-4771-B9D6-F3E2BC97E2AF} = {51634C44-27D1-460D-AFD6-211F66F9FD08}
 		{FD1FBA74-5E02-4979-8E2B-34AECFEEE136} = {51634C44-27D1-460D-AFD6-211F66F9FD08}
 		{D5634570-E111-46CD-A3EE-F5F64DFC146F} = {51634C44-27D1-460D-AFD6-211F66F9FD08}
+		{26554DCB-AF1F-48FD-A5AB-1FD02699EFEB} = {258690BB-9A1C-440A-A599-5E285F5EC7B0}
+		{334D6B74-733C-4D5D-84B6-5B6F2E7845DE} = {258690BB-9A1C-440A-A599-5E285F5EC7B0}
+		{9FBCDA07-200B-4668-8775-51BCF10A56EB} = {258690BB-9A1C-440A-A599-5E285F5EC7B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA9D7710-18BD-42E4-B258-BF52882D8654}
