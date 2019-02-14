@@ -45,6 +45,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson20", "Lesson20", "{9F
 		Week2\Lesson20\Test.svg = Week2\Lesson20\Test.svg
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week3", "Week3", "{345853D9-7951-470D-87FA-FF9473BD7045}"
+	ProjectSection(SolutionItems) = preProject
+		Week3\regex.js = Week3\regex.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
