@@ -52,7 +52,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week3", "Week3", "{345853D9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week4", "Week4", "{6C57031E-7858-4D37-B093-DF3728287805}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labor1_5", "Week4\ASPproject\Labor1_5.csproj", "{367E11D8-D172-4E91-BDAA-75D019C0C654}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labor1_5", "Week4\Labor1_5\Labor1_5.csproj", "{367E11D8-D172-4E91-BDAA-75D019C0C654}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
