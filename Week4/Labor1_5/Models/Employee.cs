@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ASPproject.Models
+namespace Labor1_5.Models
 {
     public class Employee
     {

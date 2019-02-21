@@ -1,6 +1,6 @@
 using System;
 
-namespace ASPproject.Models
+namespace Labor1_5.Models
 {
     public class ErrorViewModel
     {

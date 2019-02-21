@@ -12538,9 +12538,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paul\\source\\repos\\ISA2\\Week4\\ASPproject\\ASPproject.csproj",
-      "projectName": "ASPproject",
-      "projectPath": "C:\\Users\\Paul\\source\\repos\\ISA2\\Week4\\ASPproject\\ASPproject.csproj",
+      "projectUniqueName": "C:\\Users\\Paul\\source\\repos\\ISA2\\Week4\\ASPproject\\Labor1_5.csproj",
+      "projectName": "Labor1_5",
+      "projectPath": "C:\\Users\\Paul\\source\\repos\\ISA2\\Week4\\ASPproject\\Labor1_5.csproj",
       "packagesPath": "C:\\Users\\Paul\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Paul\\source\\repos\\ISA2\\Week4\\ASPproject\\obj\\",
       "projectStyle": "PackageReference",
