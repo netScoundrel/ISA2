@@ -1,0 +1,7 @@
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\Events\bin\Debug\Events.exe.config
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\Events\bin\Debug\Events.exe
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\Events\bin\Debug\Events.pdb
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\Events\obj\Debug\Events.csprojAssemblyReference.cache
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\Events\obj\Debug\Events.csproj.CoreCompileInputs.cache
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\Events\obj\Debug\Events.exe
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\Events\obj\Debug\Events.pdb

@@ -18,13 +18,8 @@ using Labor;
 
 #line default
 #line hidden
-#line 2 "C:\Users\Paul\source\repos\ISA2\Week4\Labor\Views\_ViewImports.cshtml"
-using Labor.Models;
-
-#line default
-#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2c0b24251e5f1ae29989b545524adfe218299b09", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5d624dd9aa78c44b5ab0a0f7926db68929e90d89", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b2d92f1ae7a93732d767a5347b90327a8713b160", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

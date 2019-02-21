@@ -1,6 +1,4 @@
-using System;
-
-namespace Labor.Models
+namespace Facade
 {
     public class ErrorViewModel
     {
