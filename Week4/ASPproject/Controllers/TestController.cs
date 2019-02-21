@@ -12,12 +12,10 @@ namespace ASPproject.Controllers
         public ActionResult GetView()
         {
             Employee emp = new Employee();
-            emp.FirstName = "Sukesh";
-            emp.LastName = "Marla";
-            emp.Salary = 20000;
-
-            ViewData["Employee"] = emp;
-            return View("MyView");
+            emp.FirstName = "Paul";
+            emp.LastName = "Opmann";
+            emp.Salary = 1510;
+            return View("MyView", emp);
         }
     }
 }
