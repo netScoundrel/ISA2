@@ -11800,11 +11800,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paul\\source\\repos\\ISA2\\ASPproject\\ASPproject.csproj",
+      "projectUniqueName": "C:\\Users\\Paul\\source\\repos\\ISA2\\Week4\\ASPproject\\ASPproject.csproj",
       "projectName": "ASPproject",
-      "projectPath": "C:\\Users\\Paul\\source\\repos\\ISA2\\ASPproject\\ASPproject.csproj",
+      "projectPath": "C:\\Users\\Paul\\source\\repos\\ISA2\\Week4\\ASPproject\\ASPproject.csproj",
       "packagesPath": "C:\\Users\\Paul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paul\\source\\repos\\ISA2\\ASPproject\\obj\\",
+      "outputPath": "C:\\Users\\Paul\\source\\repos\\ISA2\\Week4\\ASPproject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
