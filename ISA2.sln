@@ -50,6 +50,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week3", "Week3", "{345853D9
 		Week3\regex.js = Week3\regex.js
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week4", "Week4", "{6C57031E-7858-4D37-B093-DF3728287805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPproject", "ASPproject\ASPproject.csproj", "{A43DBAA5-F366-4C0D-BB18-7B674C0DDCC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,6 +80,10 @@ Global
 		{D5634570-E111-46CD-A3EE-F5F64DFC146F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5634570-E111-46CD-A3EE-F5F64DFC146F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5634570-E111-46CD-A3EE-F5F64DFC146F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43DBAA5-F366-4C0D-BB18-7B674C0DDCC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43DBAA5-F366-4C0D-BB18-7B674C0DDCC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43DBAA5-F366-4C0D-BB18-7B674C0DDCC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43DBAA5-F366-4C0D-BB18-7B674C0DDCC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +98,7 @@ Global
 		{26554DCB-AF1F-48FD-A5AB-1FD02699EFEB} = {258690BB-9A1C-440A-A599-5E285F5EC7B0}
 		{334D6B74-733C-4D5D-84B6-5B6F2E7845DE} = {258690BB-9A1C-440A-A599-5E285F5EC7B0}
 		{9FBCDA07-200B-4668-8775-51BCF10A56EB} = {258690BB-9A1C-440A-A599-5E285F5EC7B0}
+		{A43DBAA5-F366-4C0D-BB18-7B674C0DDCC5} = {6C57031E-7858-4D37-B093-DF3728287805}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA9D7710-18BD-42E4-B258-BF52882D8654}
