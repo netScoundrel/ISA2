@@ -1,0 +1,15 @@
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WPF_Events\bin\Debug\WPF Events.exe.config
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WPF_Events\bin\Debug\WPF Events.exe
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WPF_Events\bin\Debug\WPF Events.pdb
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WPF_Events\obj\Debug\WPF_Events.csprojAssemblyReference.cache
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WPF_Events\obj\Debug\MainWindow.g.cs
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WPF_Events\obj\Debug\App.g.cs
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WPF_Events\obj\Debug\WPF Events_MarkupCompile.cache
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WPF_Events\obj\Debug\WPF Events_MarkupCompile.lref
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WPF_Events\obj\Debug\MainWindow.baml
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WPF_Events\obj\Debug\WPF Events.g.resources
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WPF_Events\obj\Debug\WPF_Events.Properties.Resources.resources
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WPF_Events\obj\Debug\WPF_Events.csproj.GenerateResource.cache
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WPF_Events\obj\Debug\WPF_Events.csproj.CoreCompileInputs.cache
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WPF_Events\obj\Debug\WPF Events.exe
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WPF_Events\obj\Debug\WPF Events.pdb

@@ -1,0 +1,7 @@
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WorkingWithLINQ\bin\Debug\WorkingWithLINQ.exe.config
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WorkingWithLINQ\bin\Debug\WorkingWithLINQ.exe
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WorkingWithLINQ\bin\Debug\WorkingWithLINQ.pdb
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WorkingWithLINQ\obj\Debug\WorkingWithLINQ.csprojAssemblyReference.cache
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WorkingWithLINQ\obj\Debug\WorkingWithLINQ.csproj.CoreCompileInputs.cache
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WorkingWithLINQ\obj\Debug\WorkingWithLINQ.exe
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WorkingWithLINQ\obj\Debug\WorkingWithLINQ.pdb

@@ -1,0 +1,7 @@
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\Enumerations and the Switch Decision Statement\bin\Debug\Enumerations and the Switch Decision Statement.exe.config
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\Enumerations and the Switch Decision Statement\bin\Debug\Enumerations and the Switch Decision Statement.exe
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\Enumerations and the Switch Decision Statement\bin\Debug\Enumerations and the Switch Decision Statement.pdb
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\Enumerations and the Switch Decision Statement\obj\Debug\Enumerations and the Switch Decision Statement.csprojAssemblyReference.cache
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\Enumerations and the Switch Decision Statement\obj\Debug\Enumerations and the Switch Decision Statement.csproj.CoreCompileInputs.cache
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\Enumerations and the Switch Decision Statement\obj\Debug\Enumerations and the Switch Decision Statement.exe
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\Enumerations and the Switch Decision Statement\obj\Debug\Enumerations and the Switch Decision Statement.pdb

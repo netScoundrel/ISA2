@@ -25,15 +25,9 @@ namespace Facade
 
         internal void SetColor(Employee e)
         {
-            switch (e)
-            {
-                case null:
-                    SalaryColor = e.Salary > 15000 ? "yellow" : "green";
-                    break;
-                default:
-                    SalaryColor = "red";
-                    break;
-            }
+            if (!ReferenceEquals(null, e))
+                SalaryColor = e.Salary > 15000 ? "yellow" : "green";
+            else SalaryColor = "red";
         }
 
         internal void SetSalary(Employee e)
