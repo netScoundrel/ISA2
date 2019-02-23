@@ -1,0 +1,9 @@
+C:\Users\Paul\source\repos\ISA2\Week4\Core\bin\Debug\netcoreapp2.1\Core.deps.json
+C:\Users\Paul\source\repos\ISA2\Week4\Core\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\Paul\source\repos\ISA2\Week4\Core\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\Paul\source\repos\ISA2\Week4\Core\obj\Debug\netcoreapp2.1\Core.csprojAssemblyReference.cache
+C:\Users\Paul\source\repos\ISA2\Week4\Core\obj\Debug\netcoreapp2.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\Paul\source\repos\ISA2\Week4\Core\obj\Debug\netcoreapp2.1\Core.AssemblyInfoInputs.cache
+C:\Users\Paul\source\repos\ISA2\Week4\Core\obj\Debug\netcoreapp2.1\Core.AssemblyInfo.cs
+C:\Users\Paul\source\repos\ISA2\Week4\Core\obj\Debug\netcoreapp2.1\Core.dll
+C:\Users\Paul\source\repos\ISA2\Week4\Core\obj\Debug\netcoreapp2.1\Core.pdb

@@ -4,3 +4,4 @@ C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WorkingWithCollections\bin\Deb
 C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WorkingWithCollections\obj\Debug\WorkingWithCollections.csproj.CoreCompileInputs.cache
 C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WorkingWithCollections\obj\Debug\WorkingWithCollections.exe
 C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WorkingWithCollections\obj\Debug\WorkingWithCollections.pdb
+C:\Users\Paul\source\repos\ISA2\Week1\MVA_Lecture\WorkingWithCollections\obj\Debug\WorkingWithCollections.csprojAssemblyReference.cache

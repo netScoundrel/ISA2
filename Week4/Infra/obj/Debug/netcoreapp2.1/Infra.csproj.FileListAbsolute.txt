@@ -1,0 +1,14 @@
+C:\Users\Paul\source\repos\ISA2\Week4\Infra\bin\Debug\netcoreapp2.1\Infra.deps.json
+C:\Users\Paul\source\repos\ISA2\Week4\Infra\bin\Debug\netcoreapp2.1\Infra.dll
+C:\Users\Paul\source\repos\ISA2\Week4\Infra\bin\Debug\netcoreapp2.1\Infra.pdb
+C:\Users\Paul\source\repos\ISA2\Week4\Infra\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\Paul\source\repos\ISA2\Week4\Infra\bin\Debug\netcoreapp2.1\Facade.dll
+C:\Users\Paul\source\repos\ISA2\Week4\Infra\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\Paul\source\repos\ISA2\Week4\Infra\bin\Debug\netcoreapp2.1\Facade.pdb
+C:\Users\Paul\source\repos\ISA2\Week4\Infra\obj\Debug\netcoreapp2.1\Infra.csprojAssemblyReference.cache
+C:\Users\Paul\source\repos\ISA2\Week4\Infra\obj\Debug\netcoreapp2.1\Infra.csproj.CoreCompileInputs.cache
+C:\Users\Paul\source\repos\ISA2\Week4\Infra\obj\Debug\netcoreapp2.1\Infra.AssemblyInfoInputs.cache
+C:\Users\Paul\source\repos\ISA2\Week4\Infra\obj\Debug\netcoreapp2.1\Infra.AssemblyInfo.cs
+C:\Users\Paul\source\repos\ISA2\Week4\Infra\obj\Debug\netcoreapp2.1\Infra.csproj.CopyComplete
+C:\Users\Paul\source\repos\ISA2\Week4\Infra\obj\Debug\netcoreapp2.1\Infra.dll
+C:\Users\Paul\source\repos\ISA2\Week4\Infra\obj\Debug\netcoreapp2.1\Infra.pdb

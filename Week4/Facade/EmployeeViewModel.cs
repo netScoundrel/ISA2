@@ -7,15 +7,13 @@ namespace Facade
         public string EmployeeName { get; set; }
         public string Salary { get; set; }
         public string SalaryColor { get; private set; } = "red";
-        public string UserName { get; set; }
 
-
-        public EmployeeViewModel(Employee emp, string userName)
+        public EmployeeViewModel(Employee emp)
         {
+            if(emp is null) return;
             SetName(emp);
             SetSalary(emp);
             SetColor(emp);
-            SetUserName(userName);
         }
 
         internal void SetName(Employee e)
@@ -33,11 +31,6 @@ namespace Facade
         internal void SetSalary(Employee e)
         {
             Salary = e.Salary.ToString("C");
-        }
-
-        internal void SetUserName(string userName)
-        {
-            UserName = userName ?? string.Empty;
         }
     }
 }

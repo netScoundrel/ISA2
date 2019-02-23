@@ -35,3 +35,5 @@ C:\Users\Paul\source\repos\ISA2\Week4\Labor\bin\Debug\netcoreapp2.1\Core.dll
 C:\Users\Paul\source\repos\ISA2\Week4\Labor\bin\Debug\netcoreapp2.1\Facade.dll
 C:\Users\Paul\source\repos\ISA2\Week4\Labor\bin\Debug\netcoreapp2.1\Core.pdb
 C:\Users\Paul\source\repos\ISA2\Week4\Labor\bin\Debug\netcoreapp2.1\Facade.pdb
+C:\Users\Paul\source\repos\ISA2\Week4\Labor\bin\Debug\netcoreapp2.1\Infra.dll
+C:\Users\Paul\source\repos\ISA2\Week4\Labor\bin\Debug\netcoreapp2.1\Infra.pdb
