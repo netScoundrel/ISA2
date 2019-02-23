@@ -15968,6 +15968,7 @@
     ".NETCoreApp,Version=v2.1": [
       "Core >= 1.0.0",
       "Facade >= 1.0.0",
+      "Infra >= 1.0.0",
       "Labor >= 1.0.0",
       "MSTest.TestAdapter >= 1.3.2",
       "MSTest.TestFramework >= 1.3.2",
@@ -16010,6 +16011,9 @@
             },
             "C:\\Users\\Paul\\source\\repos\\ISA2\\Week4\\Facade\\Facade.csproj": {
               "projectPath": "C:\\Users\\Paul\\source\\repos\\ISA2\\Week4\\Facade\\Facade.csproj"
+            },
+            "C:\\Users\\Paul\\source\\repos\\ISA2\\Week4\\Infra\\Infra.csproj": {
+              "projectPath": "C:\\Users\\Paul\\source\\repos\\ISA2\\Week4\\Infra\\Infra.csproj"
             },
             "C:\\Users\\Paul\\source\\repos\\ISA2\\Week4\\Labor\\Labor.csproj": {
               "projectPath": "C:\\Users\\Paul\\source\\repos\\ISA2\\Week4\\Labor\\Labor.csproj"

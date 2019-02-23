@@ -60,7 +60,7 @@ using Facade;
             WriteLiteral("\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(101, 101, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e4717d47a2fd4c7cac9860c2b6d1d64c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c7e31c6cf0fc4e329637c11f18d6c900", async() => {
                 BeginContext(107, 88, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>MyView</title>\r\n");
                 EndContext();
@@ -80,7 +80,7 @@ using Facade;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(204, 499, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "94380bbdc444459798664b9d9ffca76f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4213287e574446998663ddfef7dbe28c", async() => {
                 BeginContext(210, 12, true);
                 WriteLiteral("\r\n    Hello ");
                 EndContext();
