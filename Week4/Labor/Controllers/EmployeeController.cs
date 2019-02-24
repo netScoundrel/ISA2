@@ -2,6 +2,7 @@
 using Core;
 using Facade;
 using Infra;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Labor.Controllers
@@ -11,10 +12,12 @@ namespace Labor.Controllers
         private readonly SalesDbContex db;
         public EmployeeController(SalesDbContex db){this.db = db;}
 
+        [Authorize]
         public ActionResult Index()
         {
 
             var model = new EmployeeListViewModel();
+            model.UserName = User.Identity.Name;
             var employees = Employees.Get(db);
             var list = new List<EmployeeViewModel>();
             foreach (var e in employees)
@@ -27,7 +30,7 @@ namespace Labor.Controllers
             model.Employees = list;
             return View("Index", model);
         }
-
+        [Authorize]
         public ActionResult AddNew()
         {
             return View("CreateEmployee", new CreateEmployeeViewModel());

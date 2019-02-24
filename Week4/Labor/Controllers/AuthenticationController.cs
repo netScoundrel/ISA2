@@ -41,6 +41,13 @@ namespace Labor.Controllers
                 principal: principal
             );
         }
+
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(
+                scheme: "AuthScheme");
+            return RedirectToAction("Login");
+        }
     }
 
 
