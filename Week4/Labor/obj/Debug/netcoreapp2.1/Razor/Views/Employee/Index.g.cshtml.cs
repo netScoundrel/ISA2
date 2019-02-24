@@ -64,7 +64,7 @@ using Infra;
             WriteLiteral("\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(129, 563, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8018b1690cac439d90de2fc157b5bf53", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0a5e4b4517c6483f9ca08c8b424578f5", async() => {
                 BeginContext(135, 243, true);
                 WriteLiteral("\r\n    <h2>Employees</h2>\r\n    <div>\r\n        <p>\r\n            <a href=\"/Employee/AddNew\">Add New</a>\r\n        </p>\r\n        <table>\r\n            <tr>\r\n                <th>Employee Name</th>\r\n                <th>Salary</th>\r\n            </tr>\r\n");
                 EndContext();
