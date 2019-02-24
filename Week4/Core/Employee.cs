@@ -4,13 +4,9 @@ namespace Core
 {
     public class Employee
     {
-        private const string requireField = "Required field!";
-        private const string lenghtIsToBig = "Lenght should be less than 20 characters!!";
-
-        [Required(ErrorMessage = requireField)]
-        [StringLength(20, ErrorMessage = lenghtIsToBig)]
+        [NameValidation]
         public string FirstName { get; set; }
-        [StringLength(20, ErrorMessage = lenghtIsToBig)]
+        [NameValidation]
         public string LastName { get; set; }
         public int Salary { get; set; }
         public int EmployeeId { get; set; }
