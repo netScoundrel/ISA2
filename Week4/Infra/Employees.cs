@@ -18,5 +18,10 @@ namespace Infra
             db.SaveChanges();
             return e;
         }
+
+        public static bool IsValidUser(UserDetails user)
+        {
+            return user.UserName == "Admin" && user.Password == "Admin";
+        }
     }
 }
