@@ -33,6 +33,20 @@ namespace Labor.Controllers
             return View("CreateEmployee");
         }
 
+        public ActionResult SaveEmployee(Employee e, string BtnSubmit)
+        {
+            switch (BtnSubmit)
+            {
+                case "Save Employee":
+                    Employees emp = new Employees();
+                    emp.Save(e, db);
+                    return RedirectToAction("Index");
+                case "Cancel":
+                    return RedirectToAction("Index");
+            }
+            return new EmptyResult();
+        }
+
 
     }
 }

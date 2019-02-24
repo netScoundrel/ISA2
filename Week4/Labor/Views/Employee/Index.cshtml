@@ -8,25 +8,25 @@
 <!DOCTYPE html>
 
 <html>
-<h2>Employees</h2>
 <body>
-<div>
-    <p>
-        <a href="/Employee/AddNew">Add New</a>
-    </p>
-    <table>
-        <tr>
-            <th>Employee Name</th>
-            <th>Salary</th>
-        </tr>
-        @foreach (EmployeeViewModel item in Model.Employees)
-        {
+    <h2>Employees</h2>
+    <div>
+        <p>
+            <a href="/Employee/AddNew">Add New</a>
+        </p>
+        <table>
             <tr>
-                <td>@item.EmployeeName</td>
-                <td style="background-color: @item.SalaryColor">@item.Salary</td>
+                <th>Employee Name</th>
+                <th>Salary</th>
             </tr>
-        }
-    </table>
-</div>
+            @foreach (EmployeeViewModel item in Model.Employees)
+            {
+                <tr>
+                    <td>@item.EmployeeName</td>
+                    <td style="background-color: @item.SalaryColor">@item.Salary</td>
+                </tr>
+            }
+        </table>
+    </div>
 </body>
 </html>

@@ -1,19 +1,27 @@
 ﻿@model Labor.Controllers.EmployeeController
 @{
     ViewBag.Title = "Create Employee";
+    <script>
+        const resetForm = () => {
+            document.querySelector("#TxtFName").value = "";
+            document.querySelector("#TxtLName").value = "";
+            document.querySelector("#TxtSalary").value = "";
+        };
+    </script>
 }
 <!DOCTYPE html>
 
 <html>
-<h2>Create Employee</h2>
 <body>
+    <h2>Create Employee</h2>
     <div>
-        <form action="/Employee/SaveEmployee" method="POST">
-            First Name: <input type="text" id="TxtFName" name="FirstName" value="" /><br />
-            Last Name: <input type="text" id="TxtLName" name="LastName" value="" /><br />
-            Salary: <input type="text" id="TxtSalary" name="Salary" value="" /><br />
-            <input type="submit" name="BtnSave" value="Save Employee" />
-            <input type="button" name="BtnReset" value="Reset" />
+        <form action="/Employee/SaveEmployee" method="post">
+            First Name: <input type="text" id="TxtFName" name="FirstName" value=""/><br/>
+            Last Name: <input type="text" id="TxtLName" name="LastName" value=""/><br/>
+            Salary: <input type="text" id="TxtSalary" name="Salary" value=""/><br/>
+            <input type="submit" name="BtnSubmit" value="Save Employee"/>
+            <input type="button" name="BtnReset" value="Reset" onclick="resetForm()"/>
+            <input type="submit" name="BtnSubmit" value="Cancel"/>
         </form>
     </div>
 </body>
