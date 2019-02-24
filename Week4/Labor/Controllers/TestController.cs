@@ -8,10 +8,13 @@ namespace Labor.Controllers
 {
     public class TestController : Controller
     {
+        private readonly SalesDbContex db;
+        public TestController(SalesDbContex db){this.db = db;}
         public ActionResult GetView()
         {
+
             var model = new EmployeeListViewModel();
-            var employees = Employees.Get();
+            var employees = Employees.Get(db);
             var list = new List<EmployeeViewModel>();
             foreach (var e in employees)
             {

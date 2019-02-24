@@ -21,15 +21,10 @@ namespace Labor
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.Configure<CookiePolicyOptions>(options =>
-            {
-                services.AddDbContext<SalesDbContex>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
-                        b => b.MigrationsAssembly("Labor")));
-                services.AddMvc();
-            });
-
-
+            services.AddDbContext<SalesDbContex>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
+                    b => b.MigrationsAssembly("Labor")));
+            services.AddMvc();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
