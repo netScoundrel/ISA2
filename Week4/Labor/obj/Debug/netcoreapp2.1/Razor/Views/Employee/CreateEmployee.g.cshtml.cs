@@ -60,7 +60,7 @@ using Labor;
             WriteLiteral("    ");
             EndContext();
             BeginContext(88, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "452b43b6a1dc468d95fd5429270968ab", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e9288c4524894530bf6f75b131026b4c", async() => {
                 BeginContext(121, 16, true);
                 WriteLiteral("\r\n        \r\n    ");
                 EndContext();
@@ -92,12 +92,12 @@ using Labor;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(438, 970, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8e2b0f766ffe484291903344fea08c38", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "726efc161fa544e596be86d28795ce3e", async() => {
                 BeginContext(444, 51, true);
                 WriteLiteral("\r\n    <h2>Create Employee</h2>\r\n    <div>\r\n        ");
                 EndContext();
                 BeginContext(495, 892, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb00beedd9a14fbd91ea80bda39f4fb9", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2cce197243614eabbac5cbbd9170bbdf", async() => {
                     BeginContext(547, 14, true);
                     WriteLiteral("\r\n            ");
                     EndContext();

@@ -25,5 +25,11 @@ namespace Infra
             if (user.UserName == "Mari" && user.Password == "Mets") return true;
             return false;
         }
+
+        public void UploadEmployees(List<Employee> employees, SalesDbContex db)
+        {
+            db.Employees.AddRange(employees);
+            db.SaveChanges();
+        }
     }
 }

@@ -42,3 +42,5 @@ C:\Users\Paul\source\repos\ISA2\Week4\Labor\obj\Debug\netcoreapp2.1\Razor\Views\
 C:\Users\Paul\source\repos\ISA2\Week4\Labor\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Footer.g.cshtml.cs
 C:\Users\Paul\source\repos\ISA2\Week4\Labor\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\NewLink\AddNewLink.g.cshtml.cs
 C:\Users\Paul\source\repos\ISA2\Week4\Labor\obj\Debug\netcoreapp2.1\Razor\Views\Employee\Delete.g.cshtml.cs
+C:\Users\Paul\source\repos\ISA2\Week4\Labor\obj\Debug\netcoreapp2.1\Razor\Views\BulkUpload\Index.g.cshtml.cs
+C:\Users\Paul\source\repos\ISA2\Week4\Labor\obj\Debug\netcoreapp2.1\Razor\Views\Employee\Edit.g.cshtml.cs
