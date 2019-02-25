@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
 using System.Threading.Tasks;
 using Core;
 using Facade;
@@ -82,6 +84,34 @@ namespace Labor.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int? id,
+            [Bind("EmployeeId,FirstName,LastName,Salary")] Employee employee)
+        {
+            if (id != employee.EmployeeId) return NotFound();
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    db.Update(employee);
+                    await db.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!EmployeeExists(employee.EmployeeId)) return NotFound();
+                    throw;
+                }
+
+                return RedirectToAction(nameof(Index));
+            }
+            return View(employee);
+        }
+
+        private bool EmployeeExists(int id)
+        {
+            return db.Employees.Any(e => e.EmployeeId == id);
+        }
 
     }
 }
