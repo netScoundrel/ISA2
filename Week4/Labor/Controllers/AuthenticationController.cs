@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Core;
 using Infra;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewFeatures.Internal;
 
@@ -21,12 +22,17 @@ namespace Labor.Controllers
         [HttpPost]
         public async Task<IActionResult> DoLogin(UserDetails u)
         {
-            if (Employees.IsValidUser(u))
+            if (ModelState.IsValid)
             {
-                await setIdentity(u);
-                return RedirectToAction("Index", "Employee");
+                if (Employees.IsValidUser(u))
+                {
+                    await setIdentity(u);
+                    HttpContext.Session.SetString("SessionKeyName", u.UserName);
+                    return RedirectToAction("Index", "Employee");
+                }
+                ModelState.AddModelError("CredentialError", "Invalid Username or Password");
+                return View("Login");
             }
-            ModelState.AddModelError("CredentialError", "Invalid Username or Password");
             return View("Login");
         }
 

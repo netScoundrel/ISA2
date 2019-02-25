@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Core;
 using Facade;
 using Infra;
+using Labor.Filters;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -34,12 +35,15 @@ namespace Labor.Controllers
             model.FooterData.Year = DateTime.Now.Year.ToString();
             return View("Index", model);
         }
+
         [Authorize]
+        [AdminFilter]
         public ActionResult AddNew()
         {
             return View("CreateEmployee", new CreateEmployeeViewModel());
         }
 
+        [AdminFilter]
         public ActionResult SaveEmployee(Employee e, string BtnSubmit)
         {
             if (BtnSubmit != "Save Employee") return RedirectToAction("Index");

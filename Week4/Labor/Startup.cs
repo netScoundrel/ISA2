@@ -30,6 +30,9 @@ namespace Labor
                 {
                     options.LoginPath = new PathString("/Authentication/Login");
                 });
+            services.AddDistributedMemoryCache();
+            services.AddSession();
+
             services.AddMvc();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
@@ -50,6 +53,7 @@ namespace Labor
 
             app.UseHttpsRedirection();
             app.UseAuthentication();
+            app.UseSession();
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
