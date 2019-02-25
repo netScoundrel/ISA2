@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Core;
 using Facade;
 using Infra;
 using Labor.Filters;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Labor.Controllers
 {
@@ -25,14 +27,15 @@ namespace Labor.Controllers
             foreach (var e in employees)
             {
                 var employee = new EmployeeViewModel(e);
+                employee.EmployeeId = e.EmployeeId;
                 list.Add(employee);
-
             }
 
             model.Employees = list;
             model.FooterData = new FooterViewModel();
             model.FooterData.CompanyName = "TTÜ";
             model.FooterData.Year = DateTime.Now.Year.ToString();
+
             return View("Index", model);
         }
 
@@ -57,6 +60,26 @@ namespace Labor.Controllers
             Employees emp = new Employees();
             emp.Save(e, db);
             return RedirectToAction("Index");
+        }
+
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null) return NotFound();
+            Employee employee = db.Employees.Find(id);
+            if (employee == null) return NotFound();
+            return View("Delete", employee);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var employee = await db.Employees.SingleOrDefaultAsync(
+                m => m.EmployeeId == id);
+            db.Employees.Remove(employee);
+            await db.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
 

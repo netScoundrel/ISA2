@@ -4,6 +4,7 @@ namespace Facade
 {
     public class EmployeeViewModel
     {
+        public int EmployeeId { get; set; }
         public string EmployeeName { get; set; }
         public string Salary { get; set; } = 0.ToString("C");
         public string SalaryColor { get; private set; } = "red";
