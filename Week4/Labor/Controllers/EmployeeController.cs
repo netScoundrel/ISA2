@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Core;
 using Facade;
 using Infra;
@@ -28,6 +29,9 @@ namespace Labor.Controllers
             }
 
             model.Employees = list;
+            model.FooterData = new FooterViewModel();
+            model.FooterData.CompanyName = "TTÜ";
+            model.FooterData.Year = DateTime.Now.Year.ToString();
             return View("Index", model);
         }
         [Authorize]

@@ -13,23 +13,26 @@
     <div style="text-align: right"> Hello, @Model.UserName
         <a href="/Authentication/Logout">Logout</a>
     </div>
-    <div>
-        <p>
-            <a href="/Employee/AddNew">Add New</a>
-        </p>
-        <table>
+<div>
+    <p>
+        <a href="/Employee/AddNew">Add New</a>
+    </p>
+    <table>
+        <tr>
+            <th>Employee Name</th>
+            <th>Salary</th>
+        </tr>
+        @foreach (EmployeeViewModel item in Model.Employees)
+        {
             <tr>
-                <th>Employee Name</th>
-                <th>Salary</th>
+                <td>@item.EmployeeName</td>
+                <td style="background-color: @item.SalaryColor">@item.Salary</td>
             </tr>
-            @foreach (EmployeeViewModel item in Model.Employees)
-            {
-                <tr>
-                    <td>@item.EmployeeName</td>
-                    <td style="background-color: @item.SalaryColor">@item.Salary</td>
-                </tr>
-            }
-        </table>
-    </div>
+        }
+    </table>
+</div>
+@{
+    Html.RenderPartial("Footer", Model.FooterData);
+}
 </body>
 </html>

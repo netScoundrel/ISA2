@@ -39,3 +39,4 @@ C:\Users\Paul\source\repos\ISA2\Week4\Labor\bin\Debug\netcoreapp2.1\Infra.pdb
 C:\Users\Paul\source\repos\ISA2\Week4\Labor\obj\Debug\netcoreapp2.1\Razor\Views\Employee\Index.g.cshtml.cs
 C:\Users\Paul\source\repos\ISA2\Week4\Labor\obj\Debug\netcoreapp2.1\Razor\Views\Employee\CreateEmployee.g.cshtml.cs
 C:\Users\Paul\source\repos\ISA2\Week4\Labor\obj\Debug\netcoreapp2.1\Razor\Views\Authentication\Login.g.cshtml.cs
+C:\Users\Paul\source\repos\ISA2\Week4\Labor\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Footer.g.cshtml.cs
