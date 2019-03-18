@@ -3,9 +3,6 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ContosoUniversityRazor.Models
 {
-    public class SchoolViewModels
-    {
-    }
 
     public class EnrollmentDateGroup
     {

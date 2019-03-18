@@ -1,11 +1,11 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using ContosoUniversityRazor.Models;
 using System;
 using System.Linq;
 using ContosoUniversity;
+using ContosoUniversityRazor.Data;
 
 namespace ContosoUniversityRazor.Pages.Students
 {

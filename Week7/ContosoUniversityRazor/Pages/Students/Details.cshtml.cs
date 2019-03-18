@@ -11,9 +11,9 @@ namespace ContosoUniversityRazor.Pages.Students
 {
     public class DetailsModel : PageModel
     {
-        private readonly ContosoUniversityRazor.Models.SchoolContext _context;
+        private readonly ContosoUniversityRazor.Data.SchoolContext _context;
 
-        public DetailsModel(ContosoUniversityRazor.Models.SchoolContext context)
+        public DetailsModel(ContosoUniversityRazor.Data.SchoolContext context)
         {
             _context = context;
         }

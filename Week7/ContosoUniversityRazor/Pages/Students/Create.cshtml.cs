@@ -1,19 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using ContosoUniversityRazor.Models;
 
 namespace ContosoUniversityRazor.Pages.Students
 {
     public class CreateModel : PageModel
     {
-        private readonly ContosoUniversityRazor.Models.SchoolContext _context;
+        private readonly ContosoUniversityRazor.Data.SchoolContext _context;
 
-        public CreateModel(ContosoUniversityRazor.Models.SchoolContext context)
+        public CreateModel(ContosoUniversityRazor.Data.SchoolContext context)
         {
             _context = context;
         }
