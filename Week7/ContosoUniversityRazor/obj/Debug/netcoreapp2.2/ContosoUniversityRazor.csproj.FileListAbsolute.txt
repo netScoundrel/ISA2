@@ -13,7 +13,6 @@ C:\Users\Paul\source\repos\ISA2\Week7\ContosoUniversityRazor\obj\Debug\netcoreap
 C:\Users\Paul\source\repos\ISA2\Week7\ContosoUniversityRazor\obj\Debug\netcoreapp2.2\ContosoUniversityRazor.RazorCoreGenerate.cache
 C:\Users\Paul\source\repos\ISA2\Week7\ContosoUniversityRazor\obj\Debug\netcoreapp2.2\Razor\Pages\Error.cshtml.g.cs
 C:\Users\Paul\source\repos\ISA2\Week7\ContosoUniversityRazor\obj\Debug\netcoreapp2.2\Razor\Pages\Index.cshtml.g.cs
-C:\Users\Paul\source\repos\ISA2\Week7\ContosoUniversityRazor\obj\Debug\netcoreapp2.2\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\Paul\source\repos\ISA2\Week7\ContosoUniversityRazor\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\Users\Paul\source\repos\ISA2\Week7\ContosoUniversityRazor\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\Paul\source\repos\ISA2\Week7\ContosoUniversityRazor\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -33,3 +32,4 @@ C:\Users\Paul\source\repos\ISA2\Week7\ContosoUniversityRazor\obj\Debug\netcoreap
 C:\Users\Paul\source\repos\ISA2\Week7\ContosoUniversityRazor\obj\Debug\netcoreapp2.2\Razor\Pages\Students\Details.cshtml.g.cs
 C:\Users\Paul\source\repos\ISA2\Week7\ContosoUniversityRazor\obj\Debug\netcoreapp2.2\Razor\Pages\Students\Edit.cshtml.g.cs
 C:\Users\Paul\source\repos\ISA2\Week7\ContosoUniversityRazor\obj\Debug\netcoreapp2.2\Razor\Pages\Students\Index.cshtml.g.cs
+C:\Users\Paul\source\repos\ISA2\Week7\ContosoUniversityRazor\obj\Debug\netcoreapp2.2\Razor\Pages\About.cshtml.g.cs
